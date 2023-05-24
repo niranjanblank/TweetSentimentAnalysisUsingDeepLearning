@@ -3,3 +3,7 @@ env
 __pycache__
 .idea
 data.csv
+
+sentimentEnv
+# models generated from word2vec are store in this folder
+word2vecModelFiles
