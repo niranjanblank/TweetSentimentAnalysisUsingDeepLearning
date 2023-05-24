@@ -32,7 +32,7 @@ def pre_process_tweet(tweet):
     cleaned_tweet_tokens = [word for word in tweet_tokens if word not in stop_words ]
 
     # stemming
-    stemmer = PorterStemmer()
-    stemmed_tweets = [stemmer.stem(word) for word in cleaned_tweet_tokens]
+    # stemmer = PorterStemmer()
+    # stemmed_tweets = [stemmer.stem(word) for word in cleaned_tweet_tokens]
 
-    return stemmed_tweets
+    return cleaned_tweet_tokens
